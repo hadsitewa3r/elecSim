@@ -1,5 +1,6 @@
 #pragma once
 
+#include <math.h>
 
 // set a matrix to a specific value
 inline void setMat3(float (*appMat)[3][3], float value){
@@ -85,3 +86,5 @@ struct mat4{
 
 	}
 };
+
+
